@@ -20,7 +20,7 @@ var FirstScreen = React.createClass({
     return (
       <View style={{flex:1,justifyContent:'center', alignItems:'center'}}>
           <TouchableOpacity onPress={this.getData}>
-          <Text> Get test</Text>
+          <Text> Go To The FirstScreen</Text>
           </TouchableOpacity>
       </View>
     );
